@@ -11,7 +11,7 @@ draft = false
 
 The first case of coronavirus in Texas was reported on February 12, and according
 to the [New York Times database](https://github.com/nytimes/covid-19-data)
-as of April 0 there have been a total of 7,094 cases reported and 136 deaths.
+as of April 05 there have been a total of 7,094 cases reported and 136 deaths.
 <!--more-->
 
 {{< 01map "images/texas_counties.html" >}}
