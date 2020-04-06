@@ -10,6 +10,7 @@ prev: /tutorials/automated-deployments
 title: Creating a New Theme
 description: This tutorial will show you how to create a simple theme in Hugo.
 weight: 10
+draft: true
 ---
 
 
