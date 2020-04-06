@@ -17,7 +17,7 @@ as of April 05 there have been a total of 7,094 cases reported and 136 deaths.
 {{< 01map "images/texas_counties.html" >}}
 
 
-Note: The map shows the coronavirus cases for each county. Each county is colored
+Note: The map shows the coronavirus cases for each county. Counties are colored
 based on the number of people that have tested positive. Counties colored in
 gray have no reported positive cases yet. Hover over the map to
 see specific county details.
