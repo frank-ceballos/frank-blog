@@ -5,7 +5,7 @@ author = "Frank Ceballos"
 date = 2020-04-04T18:39:29-05:00
 tags = ["coronavirus", "Texas"]
 categories = [""]
-draft = true
+draft = false
 +++
 
 
