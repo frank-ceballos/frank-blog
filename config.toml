@@ -9,7 +9,7 @@ hasCJKLanguage = false
 
 [params]
 	author = "Frank Ceballos"
-	description = "Graphs and Data"
+	description = "Graphs"
 	bio = "Let's Go!"
 
 	twitter = "your_twitter_id"
