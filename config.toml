@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "your_site_url_address"
+baseurl = "/"
 languageCode = "en"
 title = "Frank Ceballos"
 theme = "hugo-theme-cactus-plus"
