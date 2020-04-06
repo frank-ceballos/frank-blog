@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.frank-ceballos.com/"
+baseurl = "/"
 languageCode = "en"
 title = "Frank Ceballos"
 theme = "hugo-theme-cactus-plus"
