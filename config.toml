@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "https://elastic-ride-5dcddc.netlify.com/"
 languageCode = "en"
 title = "Frank Ceballos"
 theme = "hugo-theme-cactus-plus"
