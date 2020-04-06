@@ -30,10 +30,12 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 {{< 02bar "images/03BarPlot.html" >}}
 
 The number of cases and deaths continue to exponentially increase, it seems that
-the situation in Texas is far from its peak. 
+the situation in Texas is far from its peak.
 
 
 {{< 01bar "images/01BarPlot.html" >}}
 
 Note: The bar chart shows counties with more than 10 coronavirus cases.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
+
+{{< buymeacoffee "" >}}
