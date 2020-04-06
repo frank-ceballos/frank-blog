@@ -33,5 +33,5 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
 {{< 01bar "images/01BarPlot.html" >}}
 
-Note: The bar chart shows counties with more than coronavirus 10 cases.
+Note: The bar chart shows counties with more than 10 coronavirus cases.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
