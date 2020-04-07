@@ -2,14 +2,14 @@
 title = "Coronavirus in Wisconsin: A County Level Map"
 description = "Something should go in here."
 author = "Frank Ceballos"
-date = 2020-04-04T18:39:29-05:00
+date = 2020-07-04T18:39:29-05:00
 tags = ["coronavirus", "Texas"]
 categories = [""]
 draft = false
 +++
 
 
-The first case of coronavirus in Texas was reported on February 12, and according
+The first case of coronavirus in Texas was reported on February 5, and according
 to [data from The New York Times, based on reports from state and local health agencies](https://github.com/nytimes/covid-19-data)
 as of April 07 there have been a total of 2,440 cases reported and 83 deaths.
 <!--more-->
@@ -29,7 +29,7 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
 {{< 02bar "images/03BarPlot.html" >}}
 
-The number of cases and deaths in Texas continue to exponentially increase, it looks like
+The number of cases and deaths in Wisconsin continue to exponentially increase, it looks like
 the situation is far from its peak. It's extremely important now more than ever that you wash your hands
 frequently, maintain social distance, and practice respiratory hygiene in order
 to slow down or maintain the current rate the virus is the spreading. It might seem that practicing this
