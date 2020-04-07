@@ -30,7 +30,12 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 {{< 02bar "images/03BarPlot.html" >}}
 
 The number of cases and deaths continue to exponentially increase, it seems that
-the situation in Texas is far from its peak.
+the situation in Texas is far from its peak. Is important that you wash your hands
+frequently, maintain social distance, and practice respiratory hygiene in order
+to slow down the spread of the virus. It might seem that practicing this
+protective measures at a large scale hasn't slowdown the spread of the virus; however,
+is very likely that the situation would had been much worse if no actions had
+been taken.
 
 
 {{< 01bar "images/01BarPlot.html" >}}
