@@ -35,11 +35,6 @@ the situation in Texas is far from its peak.
 
 {{< 01bar "images/01BarPlot.html" >}}
 
-Note: The bar chart shows counties with more than 10 coronavirus cases.
-Sources: [New York Times](https://github.com/nytimes/covid-19-data)
-
-<br />
-
 **When is the information updated?**
 The information on this page is updated every morning.
 
