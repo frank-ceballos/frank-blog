@@ -32,8 +32,9 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 The number of cases and deaths in Texas continue to exponentially increase, it looks like
 the situation is far from its peak. It's extremely important now more than ever that you wash your hands
 frequently, maintain social distance, and practice respiratory hygiene in order
-to slow down the spread of the virus. It might seem that practicing this
-protective measures at a large scale hasn't slowdown the spread of the virus; however,
+to slow down or maintain the current rate the virus is the spreading. It might seem that practicing this
+protective measures at a large scale hasn't not been very effective since the
+data shows that the virus is still rapidly spreading; however,
 is very likely that the situation would had been much worse if no actions had
 been taken.
 
