@@ -38,9 +38,15 @@ the situation in Texas is far from its peak.
 Note: The bar chart shows counties with more than 10 coronavirus cases.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
-{{< buymeacoffee "" >}}
-
+<br />
 **Definitions**:
 * A **confirm case** is defined as a patient that has tested positive for coronavirus.
 Only cases that have been reported by federal, state, territorial or local government
 agency are considered.
+
+**When is the information updated?**:
+The information on this page is updated daily. Is important to note that this
+information is not real-time information; however, the figures presented inform
+the reader about the current situation in the region.
+
+{{< buymeacoffee "" >}}
