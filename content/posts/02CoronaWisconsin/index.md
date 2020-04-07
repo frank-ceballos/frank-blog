@@ -3,7 +3,7 @@ title = "Coronavirus in Wisconsin: A County Level Map"
 description = "Something should go in here."
 date = 2020-04-07T12:55:39-05:00
 author = "Frank Ceballos"
-tags = ["coronavirus", "Texas"]
+tags = ["coronavirus", "Wisconsin"]
 categories = ["here"]
 draft = false
 +++
