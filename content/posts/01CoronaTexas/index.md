@@ -29,8 +29,8 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
 {{< 02bar "images/03BarPlot.html" >}}
 
-The number of cases and deaths continue to exponentially increase, it seems that
-the situation in Texas is far from its peak. Is important that you wash your hands
+The number of cases and deaths in Texas continue to exponentially increase, it looks like
+the situation is far from its peak. It's extremely important now more than ever that you wash your hands
 frequently, maintain social distance, and practice respiratory hygiene in order
 to slow down the spread of the virus. It might seem that practicing this
 protective measures at a large scale hasn't slowdown the spread of the virus; however,
