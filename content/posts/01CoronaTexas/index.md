@@ -10,7 +10,7 @@ draft = false
 
 
 The first case of coronavirus in Texas was reported on February 12, and according
-to the [data from The New York Times, based on reports from state and local health agencies.](https://github.com/nytimes/covid-19-data)
+to [data from The New York Times, based on reports from state and local health agencies.](https://github.com/nytimes/covid-19-data)
 as of April 06 there have been a total of 8,115 cases reported and 160 deaths.
 <!--more-->
 
@@ -18,8 +18,8 @@ as of April 06 there have been a total of 8,115 cases reported and 160 deaths.
 
 
 Note: The map shows the coronavirus cases for each county. Counties are colored
-based on the number of people that have tested positive. Counties colored in
-gray have no reported positive cases yet. Hover over the map to
+based on the number of confirm cases. Counties colored in
+gray have not reported any cases yet. Hover over the map to
 see specific county details.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
@@ -39,3 +39,8 @@ Note: The bar chart shows counties with more than 10 coronavirus cases.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
 {{< buymeacoffee "" >}}
+
+**Definitions**:
+* A **confirm case** is defined as a patient that has tested positive for coronavirus.
+Only cases that have been reported by federal, state, territorial or local government
+agency are considered.
