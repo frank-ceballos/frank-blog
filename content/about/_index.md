@@ -19,7 +19,8 @@ to develop web-pages so don't be mad at me if some of the buttons don't work.
 Most of my data science related publications can be found in my [Medium](https://medium.com/@frank.ceballos)
 homepage.
 
-Below you will find my education and more formal presentations and publications.
+Below you will find my formal education, presentations, and publications. You
+are welcome to contact me on [LinkedIn](https://www.linkedin.com/in/frank-ceballos/)
 
 ***
 
