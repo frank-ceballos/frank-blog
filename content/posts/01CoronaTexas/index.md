@@ -38,8 +38,20 @@ data shows that the virus is still rapidly spreading; however,
 is very likely that the situation would had been much worse if no actions had
 been taken.
 
-
+Next, we show the counties with more than 10 cases. By inspecting the number of
+cases at the county level, we can compare how the virus is affecting different
+counties.
 {{< 01bar "images/01BarPlot.html" >}}
+
+It's also interesting to investigate how the virus has spread with time at the
+county level. To show that, we create heatmaps (see Figures below) to keep track on how
+the number of cases and deaths have changed with time. Days where no cases or
+deaths were reported are shown in gray. Hover the mouse over the heatmap to learn specific
+details about each county.
+
+{{< 04bar_heat "images/04CasesHeatMap.html" >}}
+
+{{< 04bar_heat "images/05DeathsHeatMap.html" >}}
 
 **When is the information updated?**
 The information on this page is updated every morning.
