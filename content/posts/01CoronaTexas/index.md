@@ -57,8 +57,8 @@ details about each county.
 The information on this page is updated every morning.
 
 **Definitions**:
-* A **confirm case** is defined as a patient that has tested positive for coronavirus.
+* A **confirmed case** is defined as a patient that has tested positive for coronavirus.
 Only cases that have been reported by federal, state, territorial or local government
-agency are considered.
+agencies are considered.
 
 {{< buymeacoffee "" >}}
