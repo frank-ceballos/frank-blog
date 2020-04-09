@@ -373,4 +373,10 @@ In this post, we have learned how to create RDDs and transform them using some o
 We have covered a lot of ground in this post but we are barely scratching the surface
 when it comes to the things we can do with Spark. Remember that Spark is a fast and scalable
 technology that can be used to process large-scale data.
+
+You
+are welcome to contact me on [LinkedIn](https://www.linkedin.com/in/frank-ceballos/).
+
+Until next time, take care, and code everyday!
+
 {{< buymeacoffee "" >}}

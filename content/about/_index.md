@@ -9,7 +9,7 @@ Hello, my name is Frank Ceballos.
 I'm just a regular guy with a background in experimental laser physics that has transition
 into the field of machine learning systems. I currently work in the Department
 of Radiation Oncology in the Medical College of Wisconsin. In my free time,
-I like to workout and play my guitar.
+I like to workout, play guitar, and write on my blog.
 
 In my blog, you will find post about visualization of data, data analysis,
 and machine learning. My main to go language is Python and am familiar with
