@@ -19,13 +19,13 @@ And of course there was a better way: the Spark way. To put shortly, Spark allow
 you to deal with massive datasets by distributing the processing among a computer
 cluster or CPUs in your local workstation. Man I wish I had a computer cluster to deal with.
 The best thing in my opinion is that is really easy
-to learn and you can use this powerful without ever leaving the Python ecosystem
+to learn and you can use this powerful tool without ever leaving the Python ecosystem
 by using the `pyspark` package. However,
 it can be a little of a challenge to get it installed so I wrote a guide
 on how to install `pyspark` on a Windows 10 machine [here](https://medium.com/i-want-to-be-the-very-best/installing-apache-spark-on-windows-10-ce1c45de35ab).
 
-In this post we will only focus on learning the basics of Spark to get you
-started. In later posts, I will tackle more advanced problems.
+In this post we will only focus on learning the basics of transformations in Spark to get you
+started.
 
 ![separator](images/voronoi_separator.png)
 
@@ -37,7 +37,7 @@ then use to transform the data. The cool thing about the RDD is that it splits
 the workload into different clusters on its own and makes sure that if one of your
 computers or CPUs goes down, it can recover without giving you a nasty error
 and continue the job. This advantageous because you don't want to start all
-over again a job that takes hours or days to complete just because one of your
+over again a job that took hours or days to complete just because one of your
 computers or CPUs crashed at the end.
 
 ![Components](images/spark_components.jpg)
