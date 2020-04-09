@@ -4,12 +4,10 @@ date = 2020-04-08T10:18:00-05:00
 draft = false
 +++
 
-Hello, my name is Frank Ceballos.
-
-I'm just a regular guy with a background in experimental laser physics that has transition
-into the field of machine learning systems. I currently work in the Department
+Hello, my name is Frank Ceballos. I have a background in experimental laser physics
+but have transition into the field of machine learning systems. I currently work in the Department
 of Radiation Oncology in the Medical College of Wisconsin. In my free time,
-I like to workout, play guitar, and write on my blog.
+I like to workout, play guitar, and write data science related blogs.
 
 In my blog, you will find post about visualization of data, data analysis,
 and machine learning. My main to go language is Python and am familiar with
@@ -19,7 +17,7 @@ to develop web-pages so don't be mad at me if some of the buttons don't work.
 Most of my data science related publications can be found in my [Medium](https://medium.com/@frank.ceballos)
 homepage.
 
-Below you will find my formal education, presentations, and publications. You
+Below you will find my formal education, presentations, and [publications](https://scholar.google.com/citations?user=no5U6_YAAAAJ&hl=en&oi=ao). You
 are welcome to contact me on [LinkedIn](https://www.linkedin.com/in/frank-ceballos/)
 
 ***
