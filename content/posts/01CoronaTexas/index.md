@@ -49,9 +49,8 @@ the number of cases and deaths have changed with time. Days where no cases or
 deaths were reported are shown in gray. Hover the mouse over the heatmap to learn specific
 details about each county.
 
-{{< 04bar_heat "images/04CasesHeatMap.html" >}}
-
-{{< 04bar_heat "images/05DeathsHeatMap.html" >}}
+{{< 04bar_heat_tex1 "images/04CasesHeatMap.html" >}}
+{{< 04bar_heat_tex2 "images/05DeathsHeatMap.html" >}}
 
 **When is the information updated?**
 The information on this page is updated every morning.
