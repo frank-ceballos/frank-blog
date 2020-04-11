@@ -23,8 +23,6 @@ gray have not reported any cases yet. Hover over the map to
 see specific county details.
 Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
-
-
 {{< 02bar "images/02BarPlot.html" >}}
 
 {{< 02bar "images/03BarPlot.html" >}}

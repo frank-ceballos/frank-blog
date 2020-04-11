@@ -3,7 +3,7 @@ title = "Gotta Graph 'Em All'"
 date = 2020-04-10T11:42:27-05:00
 tags = ["pokemon", "graph", "python", "mpld3"]
 categories = ["visualizations"]
-draft = true
+draft = false
 +++
 
-{{< addHTML "images/sample.html" >}}
+{{< addHTML "images/pokemon_graph.html" >}}
