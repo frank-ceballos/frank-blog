@@ -4,12 +4,10 @@ date = 2020-04-10T11:42:27-05:00
 tags = ["pokemon", "graph", "python", "mpld3"]
 categories = ["visualizations"]
 draft = false
+summary = "A Wild Scatter Plot Appears! Hover your mouse over it to see what happens ;)"
 +++
 {{< image "images/charmander.gif" >}}
 
-A Wild Scatter Plot Appears
-
-<!--more-->
 
 {{< iframe "images/pokemon_graph.html" >}}
 
@@ -28,12 +26,43 @@ the Pokemon blog I wrote in Medium has barely gained any views. However,
 I've learned so many tricks since then so I figured why not create a cool
 graph with this data.
 
+**Two hours later**: Well I could not find the original Pokemon dataset I used
+before so I had to find three different data sets and compile them into one.
+One dataset contained all the Pokemon's stats but was missing the rank and
+evolutionary stage. So I had to dig around the web to find the missing information.
+
+**Friday 9:00PM**: After I compiled all the information I took a break. Now
+I am realizing that `seaborn` and `mpld3` don't like each other very well.
+The whole point of this article is to create a scatter plot that is interactive
+and shows a Pokemon image as you hover over the points. I want to avoid using
+`matplotlib` because it will take too much work to make a nice looking
+plot where I can control the color, marker size, and marker type based on
+a Pokemon's stats. There has to be a way to do it.
+
+**Friday 11:00PM** I have been digging deeper and deeper into the net on how
+to make this work. I have found multiple examples on how `mpld3` and `maplotlib`
+are compatible and offer the feature I want when used together. As a matter
+of fact, you can use only `matplotlib` to create a matplotlib object
+that shows an image as you hover a point. That's great but since
+I want to embed the scatter plot on my webpage, I need to save the matplotlib
+figure as an html file. It turns out that when you save an matplotlib figure
+as html it loses some of it's functionalities. Because of that, I looked
+into `plotly` the obvious choice to make interactive figures; however,
+`plotly` does not innately allows you to have images pop out as you hover
+over a point. This is a feature that has been requested since 2016 but remains
+to be added.
+
 **Friday 11:55PM**: Well that took much longer than I expected but here we go.
 Go hover your mouse over a point in the figure above to see a cool trick.
 To make this graph, I had to do a bunch of maneuvers. The main packages
 that I used are `pandas`, `seaborn`, `matplotlib`, and `mpld3`. Making
-`seaborn` and `mpld3` to work correctly was a bit of a challenge.
+`seaborn` and `mpld3` to work correctly was a bit of a challenge. This is the
+line that did the trick for me:
+
+`plugins.connect(fig, mpld3.plugins.PointHTMLTooltip(ax.get_children()[0], labels))`
+
 I will just paste the Python source code here and you can figure out the rest.
+
 ```python
 ###############################################################################
 #                          1. Importing Libraries                             #
