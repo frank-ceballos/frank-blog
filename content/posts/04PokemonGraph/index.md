@@ -1,11 +1,11 @@
 +++
-title = "Gotta Graph 'Em All'"
+title = "Gotta Graph 'Em All!"
 date = 2020-04-10T11:42:27-05:00
 tags = ["pokemon", "graph", "python", "mpld3"]
 categories = ["visualizations"]
 draft = false
 +++
-{{< image "images/charmander.png" >}}
+{{< image "images/charmander.gif" >}}
 
 {{< addHTML "images/pokemon_graph.html" >}}
 
@@ -23,7 +23,7 @@ the Pokemon blog I wrote in Medium has barely gained any views. However,
 I've learned so many tricks since then so I figured why not create a cool
 graph with this data.
 
-**Friday 11:30PM**: Well that took much longer than I expected but here we go.
+**Friday 11:55PM**: Well that took much longer than I expected but here we go.
 Go hover your mouse over a point in the figure above to see a cool trick.
 To make the graph shown above, I had to do a bunch of maneuvers. The main packages
 that I used are `pandas`, `seaborn`, `matplotlib`, and `mpld3`. Making
