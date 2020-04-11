@@ -12,8 +12,9 @@ I like to workout, play guitar, and write data science related blogs.
 In my blog, you will find post about visualization of data, data analysis,
 and machine learning. My main to go language is Python and am familiar with
 packages such as `numpy`, `pandas`, `matplotly`, `seaborn`, `plotly`, `dash`, `keras`,
-`scikit-learn`, `folium`, `pyspark`, and many more. I'm currently learning
-to develop web-pages so don't be mad at me if some of the buttons don't work.
+`scikit-learn`, `folium`, `pyspark`, and many more. I'm currently learning how
+to develop web-pages so don't be mad at me if some of the buttons don't work
+or if my website is not very mobile friendly.
 Most of my data science related publications can be found in my [Medium](https://medium.com/@frank.ceballos)
 homepage.
 
