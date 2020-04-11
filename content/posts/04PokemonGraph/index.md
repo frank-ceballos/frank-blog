@@ -7,7 +7,6 @@ draft = false
 +++
 {{< image "images/charmander.gif" >}}
 
-{{< addHTML "images/pokemon_graph.html" >}}
 {{< iframe "images/pokemon_graph.html" >}}
 
 **Figure 1 — Scatter plot of Health vs Pokemon Rank**: The Pokemon’s evolution stage
