@@ -6,19 +6,19 @@ categories = ["programming", "data science"]
 draft = false
 +++
 
-![Fire](images/cover.jpg)
+![Fire](images/dogFire.gif)
 
 ## Introduction
 So I got hold of this huge file and the first thing I did was to read it using
-`pandas`. I noticed that it took quite a while to read the damn thing but whatever,
-I can spare a couple of minutes of my life. However, when I started to transform
-the pandas dataframe weird things started to happen. Spyder started to freeze
-and frequently crashed. This is when I realized that there had to be a better way.
+`pandas`. I noticed that it took quite a while to read the damn thing but whatever
+I can spare a minute of my life. However, when I started to transform
+the pandas dataframe weird things started to happen-- Spyder froze and frequently
+crashed. This is when I realized that there had to be a better way.
 
-And of course there was a better way: the Spark way. To put shortly, Spark allows
+And of course there is a better way: the [Spark](https://spark.apache.org/) way. To put shortly, Spark allows
 you to deal with massive datasets by distributing the processing among a computer
 cluster or CPUs in your local workstation. Man I wish I had a computer cluster to deal with.
-The best thing in my opinion is that is really easy
+The best thing in my opinion is that it's easy
 to learn and you can use this powerful tool without ever leaving the Python ecosystem
 by using the `pyspark` package. However,
 it can be a little of a challenge to get it installed so I wrote a guide
@@ -34,7 +34,7 @@ Spark is made of many subcomponents (see the Figure below). The main component
 we will be dealing today will be the Spark Core. With this component we can create
 a Spark object known as **Resilient Distributed Dataset (RDD)** which we can
 then use to transform the data. The cool thing about the RDD is that it splits
-the workload into different clusters on its own and makes sure that if one of your
+the workload and makes sure that if one of your
 computers or CPUs goes down, it can recover without giving you a nasty error
 and continue the job. This advantageous because you don't want to start all
 over again a job that took hours or days to complete just because one of your
@@ -44,7 +44,7 @@ computers or CPUs crashed at the end.
 
 The rest of the Spark components run on top of it and can be used to build fast
 and scalable pipelines. We won't talk about them in this post but from their
-names you could guess their main function
+names you could guess their main functions.
 
 ![separator](images/voronoi_separator.png)
 
@@ -84,7 +84,8 @@ the object known as `SparkContext`.
 
 * `SparkContext` is an object in Spark that you can use to create RDDs.
 
-Next, we define the configuration using `SparkConf`. Let's take a closer look:
+Next, we define the configuration we will like to run Spark with using
+`SparkConf`. Let's take a closer look:
 
 ```python
 conf = SparkConf().setMaster('local').setAppName('Job Name')
@@ -102,7 +103,9 @@ use one core/CPU to run locally in our machine. Here are the other strings you c
 * `'local[*]'`: uses as many threads as the number of processors available.
 
 We also set the name of the app using `setAppName()` method. It's good practice
-to give a name to your jobs so that you can keep track of them.
+to give a name to your jobs so that you can keep track of them. In practice,
+you should never use `'local'` because it would mean you're not splitting and
+processing your data among different workers.
 
 In the next line of code, we create an instance of `SparkContext()` object using:
 
@@ -121,7 +124,7 @@ Finally, we create our RDD using the `parallelize()` method in `sc`:
 ```python
 rdd = sc.parallelize((my_list))
 ```
-You can use the `parallelize()` method to create RDD from Python built-in collections
+You can use the `parallelize()` method to create a RDD from Python built-in collections
 such as `list`, `dict`, `tuples` etc.
 
 ### Creating an RDD from a Saved File
@@ -252,7 +255,7 @@ turn our attention to another RDD transformation:
 
 #### FlatMap
 * `flatMap()`: Similar to `map()`, the `flatMap()` method allows you to transform
-every line in the RDD into a new one; however, this time number of lines in the
+every line in the RDD; however, this time number of lines in the
 transformed RDD can be less than, the same, or more than the number of lines in the
 original RDD.
 
