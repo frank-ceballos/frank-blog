@@ -12,6 +12,7 @@ draft = false
 **Figure 1 — Scatter plot of Health vs Pokemon Rank**: The Pokemon’s evolution stage
 in shown by the different style of marker and color. The Pokemon’s speed
 determines the size of the marker. Pokemon’s with larger speeds have larger markers.
+Hover your mouse over a point to see the corresponding Pokemon.
 
 ## Things I do on a Friday night
 **Friday 5:00PM**: I have nothing better to do and my new blog needs
@@ -25,7 +26,7 @@ graph with this data.
 
 **Friday 11:55PM**: Well that took much longer than I expected but here we go.
 Go hover your mouse over a point in the figure above to see a cool trick.
-To make the graph shown above, I had to do a bunch of maneuvers. The main packages
+To make this graph, I had to do a bunch of maneuvers. The main packages
 that I used are `pandas`, `seaborn`, `matplotlib`, and `mpld3`. Making
 `seaborn` and `mpld3` to work correctly was a bit of a challenge.
 I will just paste the Python source code here and you can figure out the rest.
