@@ -1,6 +1,7 @@
 +++
 title = "An Introduction to Spark Transformations in Python"
 date = 2020-04-08T16:10:32-05:00
+author = "Frank Ceballos"
 tags = ["pyspark", "python", "spark"]
 categories = ["programming", "data science"]
 draft = false
