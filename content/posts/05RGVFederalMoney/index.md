@@ -1,5 +1,5 @@
 +++
-title = "RGV Political Contributions From Individuals"
+title = "Political Individual Contributions in the Rio Grande Valley"
 date = 2020-04-12T17:41:01-05:00
 tags = ["money"]
 author = "Frank Ceballos"
