@@ -11,7 +11,7 @@ draft = false
 
 The first case of coronavirus in Wisconsin was reported on February 5, and according
 to [data from The New York Times, based on reports from state and local health agencies](https://github.com/nytimes/covid-19-data)
-as of April 21 there have been a total of 4,620 cases reported and 243 deaths.
+as of April 21 there have been a total of 5,911 cases reported and 274 deaths.
 <!--more-->
 
 {{< 01map "images/counties_map.html" >}}
@@ -29,14 +29,9 @@ Sources: [New York Times](https://github.com/nytimes/covid-19-data)
 
 {{< 02bar "images/03BarPlot.html" >}}
 
-The number of cases and deaths in Wisconsin continue to exponentially increase, it looks like
-the situation is close to its peak. It's extremely important now more than ever that you wash your hands
+The number of cases and deaths in Wisconsin continue to increase. It's extremely important now more than ever that you wash your hands
 frequently, maintain social distance, and practice respiratory hygiene in order
-to slow down and maintain the current rate the virus is the spreading. It might seem that practicing this
-protective measures at a large scale hasn't not been very effective since the
-data shows that the virus is still rapidly spreading; however,
-is very likely that the situation would had been much worse if no actions had
-been taken.
+to slow down and maintain the current rate the virus is the spreading. 
 
 Next, we show the counties with more than 10 cases. By inspecting the number of
 cases at the county level, we can compare how the virus is affecting different
