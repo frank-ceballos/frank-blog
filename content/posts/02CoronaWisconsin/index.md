@@ -11,7 +11,7 @@ draft = false
 
 The first case of coronavirus in Wisconsin was reported on February 5, and according
 to [data from The New York Times, based on reports from state and local health agencies](https://github.com/nytimes/covid-19-data)
-as of April 27 there have been a total of 5,911 cases reported and 274 deaths.
+as of May 04 there have been a total of 7,964 cases reported and 339 deaths.
 <!--more-->
 
 {{< 01map "images/counties_map.html" >}}
