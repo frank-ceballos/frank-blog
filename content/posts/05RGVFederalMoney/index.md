@@ -4,7 +4,7 @@ date = 2020-04-12T17:41:01-05:00
 tags = ["money"]
 author = "Frank Ceballos"
 categories = ["politics"]
-draft = true
+draft = false
 summary = "Who is donating money in the Rio Grande Valley?"
 +++
 {{< image "images/brownsvilleCity.jpg" >}}
